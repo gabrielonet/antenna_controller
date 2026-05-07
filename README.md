@@ -1,0 +1,7 @@
+- Schematics will be added later
+- It can controll 6 antenna ports and 6 auxiliary relays
+- Since Nextion only have 8 GPIOS, 3 are used for antennas and another 3 for auxiliary relays, as 3 bit registers and 2 x CD4028 as BCD decoders 
+- It depends by Python 3.12 upwards
+- It uses TkInter
+- Python serial should be removed and install pyserial
+- It has a crude UDP server to be used with N1MM but not fully working
